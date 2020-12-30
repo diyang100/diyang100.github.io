@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="./css/header.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./js/mobileHeader.js"></script>
     <script src="./js/parallax.min.js"></script>
 </head>
 <body>
@@ -23,7 +24,12 @@
                 </div>
                 <h1><a href="/">Di Yang</a></h1>
             </div>
-            <div class="nav_bar_container">
+            <div class="menu_logo_container">
+                <div class="menu_button_container">
+                    <img class="header_menu_logo" src="media/menu_icon.png" onclick="toggleMenu()">
+                </div>
+            </div>
+            <div class="nav_bar_container" id="nav_bar_container">
                 <ul class="navigation">
                     <a href="/"><li>Home</li></a>
                     <a href="#about"><li>About Me</li></a>

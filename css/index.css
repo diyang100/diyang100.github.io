@@ -15,20 +15,20 @@ body{
     background: transparent;
 }
 
-
-#intro {
-    padding-top: 80px;
-   
-}
-
-#intro p {
-    padding: 150px 200px;
-    font-size: 20px;
-    color: #00ffff;
-}
-
-#about {
-    height: 500px;
-    font-size: 20px;
-    color: #00ffff;
+@media screen and (min-width: 900px) {
+    #intro {
+        padding-top: 80px;
+    }
+    
+    #intro p {
+        padding: 150px 200px;
+        font-size: 20px;
+        color: #00ffff;
+    }
+    
+    #about {
+        height: 500px;
+        font-size: 20px;
+        color: #00ffff;
+    }
 }
